@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: python:3
+    steps:
+      - run:
+          name: install validator
+          command: pip install html5validator
+      - run:
+          name: install OpenJDK
+          command: apt update && apt install -y openjdk-8-jre
+      - checkout
+      - run:
+          name: validate html
+          command: html5validator --root .
+      - run:
+          name: validate css
+          command: html5validator --css --root ./css
