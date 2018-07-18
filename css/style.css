@@ -4,10 +4,6 @@ body {
   text-align: center;
 }
 
-.links {
-  color: #ffffff;
-}
-
 a:link, a:visited, a:hover, a:active {
   color: #ffffff;
   text-decoration: none;
