@@ -9,7 +9,6 @@ a:link, a:visited, a:hover, a:active {
 }
 
 video {
-  object-fit: cover;
   width: 100vw;
   height: 100vh;
   position: fixed;
