@@ -1,5 +1,6 @@
 body {
   background: #F6CEFC;
+  background-image: url('/img/bounce.gif');
   font-family: monospace;
   text-align: center;
 }
