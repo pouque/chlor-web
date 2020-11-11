@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Down-Regular;
+  src: url(/fonts/down_regular.otf);
+}
+
 body {
   background: #F6CEFC;
   background-image: url('/img/rainbow.gif');
-  font-family: monospace;
+  font-family: Down-Regular, monospace;
   text-align: center;
 }
 
